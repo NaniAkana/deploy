@@ -57,6 +57,7 @@ function Login() {
     }
 
     return (
+        <div id='log'>
         <div className='container login' >
             <h1>Login</h1>
             <form onSubmit={handleLogin}>
@@ -84,6 +85,7 @@ function Login() {
                 <span>Doesn't have an account? <Link to="/signup">Signup</Link></span>
             </form>
             <ToastContainer />
+        </div>
         </div>
     )
 }

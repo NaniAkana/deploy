@@ -17,7 +17,7 @@ function Contact() {
           </h1>
           <hr />
           <h6>Email</h6>
-          <h1 ><a href="mailto:naniakana567@gmail.com">naniakana567@gmail.com</a></h1>
+          <h1 className='mail'><a href="mailto:naniakana567@gmail.com">naniakana567@gmail.com</a></h1>
 
         </div>
         <div class="contact2">
