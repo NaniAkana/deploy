@@ -1,0 +1,109 @@
+@media (max-width:900px) {
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .categorie hr{
+        margin-left: 10%;
+    }
+    .categories hr{
+        margin-left: 10%;
+        width: 80%;
+        
+    }
+    .cate{
+        margin-left: 10%;
+    }
+    .categ img{
+        width: 70px;
+        height: 70px;
+    
+    }
+    .carthtml hr{
+        margin-left: 10%;
+    }
+    .contact{
+        display: block;
+        height: auto;
+        
+        
+    }
+    .contact1{
+        width: 270px;
+        
+    }
+    .contact2{
+        width: 270px;
+    }
+    .contact2 input{
+        width: 200px;
+    }
+    .contact2 textarea{
+        width: 200px;
+    }
+    .categorie{
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    
+    .footer2{
+        height: auto;
+        display: block;
+    }
+    .footer3{
+        width: 100%;
+    }
+    .footer4{
+        width: 100%;
+    }
+    .footer5{
+        width: 100%;
+    }
+    .footer1 h1{
+        margin-left: 20px;
+        
+        font-size: 40px;
+    }
+    .hr hr{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .card3{
+        width: 100%;
+        height: 400px;
+        display: block;
+    }
+    .card1{
+        margin: 0px;
+        width: 100%;
+    }
+    .card2{
+       margin: 50px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card4{
+        margin-left: 0px;
+        width: 100%;
+        font-size: large;
+    }
+    .choose{
+        height: auto;
+        display: block;
+    }
+    .choose1 img{
+        height: 300px;
+    }
+    .choose2{
+        width: 100%;
+        margin-top: 0;
+    }
+    
+
+}

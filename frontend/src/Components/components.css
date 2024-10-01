@@ -1,0 +1,391 @@
+.home{
+    width: 100%;
+    height: 600px;
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nn{
+    position: sticky;
+    top: 0;
+    z-index: 66;
+    width: 100%;
+    
+}
+.navbar-brand img{
+    width: 150px;
+    height: 70px;
+}
+.list{
+    list-style: none;
+    font-size: x-large;
+    margin: 20px;
+}
+.matter{
+    text-align: center;
+    
+}
+.matter-btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:skyblue;
+    border-radius: 5px;
+    border: none;
+}
+.matter-btn Link{
+    color: white;
+    text-decoration: none;
+}
+.matter-btn:hover{
+    background-color: bisque;
+    color: black;
+}
+.headimg{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/headimg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 150px;
+   
+}
+.headimg2{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/headimg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 150px;
+   
+}
+.headimg3{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/contact.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 250px;
+   
+}
+.headimg4{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 150px;
+   
+}
+.categorie{
+    height: 90vh;
+    width: 100%;
+}
+
+
+.categorie h1{
+    padding-top: 100px;
+    margin-left: 120px;
+}
+.categorie hr{
+    width: 80%;
+    margin-left: 120px;
+}
+.categ img{
+    width: 100px;
+    height: 100px;
+
+}
+.categ{
+    padding-top: 100px;
+}
+.choose{
+    width: 100%;
+    height: 500px;
+    display: flex;
+   
+
+
+}
+.choose1{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+.choose1 img{
+    height: 450px;
+    width: 300px;
+    transform: rotate(-10deg);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.choose2{
+    width: 40%;
+    height: 450px;
+   
+    margin-top: 20px;
+
+}
+.choose2 p{
+    color: rgb(48, 235, 48);
+}
+.footer{
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(42, 60, 60);
+}
+.footer1{
+    height: 100px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+   
+}
+.footer1 h1{
+    margin-left: 120px;
+    font-size: 80px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer2{
+    height: 350px;
+    width: 100%;
+    
+    display: flex;
+}
+.footer3{
+    height: 350px;
+    width: 33.3%;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer3 img{
+    width: 300px;
+}
+.footer4{
+    height: 350px;
+    width: 33.3%;
+    color: white;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.footer5{
+    height: 350px;
+    width: 33.3%;
+    color: white;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+.footer5 a{
+    text-decoration: none;
+
+}
+.hr hr{
+    color: white;background-color: aliceblue; width: 80%;margin-left: 120px;
+}
+.contact{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact1{
+    width: 500px;
+    height: 650px;
+    
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url(images/backcontact.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.contact2{
+    width: 500px;
+    height: auto;
+    
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+}
+.contact1 h1{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.contact1 h6{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    
+}
+.contact1 hr{
+    text-align: center;
+    margin: 50px;
+    
+}
+.contact1 a{
+    text-decoration: none;
+}
+.contact2 p{
+    margin:50px 0 0 50px;
+}
+.contact2 hr{
+    text-align: center;
+    margin:0 50px 0px 50px;
+    
+}
+.contact2 h1{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.form{
+    margin-left: 50px;
+}
+.form input{
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.card3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.card1{
+    margin: 120px;
+    width: 1200px;
+}
+.card2{
+    margin: 120px;
+    width: 500px;
+}
+.card2 img{
+    width: 280px;
+    border-radius: 20px;
+}
+.card4{
+    margin-left: 150px;
+    width: 800px;
+    font-size: x-large;
+}
+.cate{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 30px; 
+    padding: 20px;
+    margin-left: 90px;
+    
+}
+.cate a{
+   text-decoration: none;
+   color: black;
+}
+.categories{
+    height: auto;
+    width: 100%;
+} 
+.categories h1{
+    margin-left: 120px;
+
+}
+.categories hr{
+    margin-left: 120px;
+    width: 80%;
+    
+}
+.view{
+   float: right;
+   position: relative;
+   right: 90px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card-body a{
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.carthtml{
+    height: auto;
+}
+.carthtml h1{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.carthtml hr{
+    margin-left: 120px;
+    width: 80%;
+    
+}
+.carthtml1{
+    text-align: center;
+}
+.carthtml h2{
+    margin-top: 50px;
+}
+#checkout-btn{
+    margin-top: 10px;
+   
+}.cart-item button{
+    
+    padding: 5px;
+}
