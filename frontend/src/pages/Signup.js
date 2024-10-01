@@ -15,7 +15,7 @@ function Signup() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        // Update the state without mutating the original object
+        
         setSignupInfo((prevInfo) => ({
             ...prevInfo,
             [name]: value
@@ -29,7 +29,7 @@ function Signup() {
             return handleError('Name, email, and password are required');
         }
         try {
-            const url = "http://localhost:8080/auth/signup"; // Correct URL with http
+            const url = `https://deploy-api-three.vercel.app/auth/signup`; 
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
