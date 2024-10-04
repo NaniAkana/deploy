@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import bio1 from './images/bio1.jpeg';
-import bio2 from './images/bio2.jpeg';
-import bio3 from './images/bio3.jpeg';
-import bio4 from './images/bio4.jpeg';
-import bio5 from './images/bio5.jpeg';
+import horror4 from './images/stephen king.webp';
+import romantic3 from './images/set on you.jpeg';
+import storie4 from './images/tena.jpg';
+import thriller3 from './images/thriller3.jpg';
 import Footer from './Footer';
 
 function Bestseller() {
@@ -42,15 +42,15 @@ function Bestseller() {
       </div>
       <div className="categories">
         <div style={{ margin: '20px' }}>
-          <h1>Biography</h1>
+          <h1>Offers</h1>
           <hr />
           <div className="cate card-container">
             {[
-              { id: 1, img: bio1, title: 'George Washington Book', price: 500 },
-              { id: 2, img: bio2, title: 'Albert Einstein Book', price: 500 },
-              { id: 3, img: bio3, title: 'Mahatma Gandhi Book', price: 500 },
-              { id: 4, img: bio4, title: 'APJ Abdul Kalam Book', price: 700 },
-              { id: 5, img: bio5, title: 'Walt Disney Book', price: 600 }
+              { id: 1, img: bio1, title: 'George Washington Book', price: 270 },
+              { id: 2, img: romantic3, title: 'Set On You Book', price: 430 },
+              { id: 3, img: storie4, title: 'Tenali Raman Book', price: 368 },
+              { id: 4, img: horror4, title: 'Stephen King Book', price: 419 },
+              { id: 5, img: thriller3, title: 'The Silent Patient Book', price: 760 }
             ].map(book => (
               <div className="card" style={{ width: '13rem' }} key={book.id}>
                 <img src={book.img} className="card-img-top" alt={book.title} />

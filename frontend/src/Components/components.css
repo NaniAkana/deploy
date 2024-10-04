@@ -392,3 +392,20 @@
     
     padding: 5px;
 }
+.sidebar{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+.sidebar input{
+    width: 170px;
+   
+
+}
+.sidebar1{
+    display: flex;
+}

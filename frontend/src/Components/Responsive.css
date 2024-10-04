@@ -107,6 +107,12 @@
     .mail a{
         font-size: large;
     }
-    
+    .sidebar1{
+        display: block;
+       
+    }
+    .sidebar{
+        height: 300px;
+    }
 
 }

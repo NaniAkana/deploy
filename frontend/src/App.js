@@ -13,6 +13,7 @@ import Categories from './Components/Categories';
 import Bestseller from './Components/Bestseller';
 import Card from './Components/Card';
 import Payment from './Components/Payment';
+import Scroll from './Scroll';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <HashRouter >
+        <Scroll/>
         <RefreshHandler setIsAuthenticated={setIsAuthenticated} />
         <NavbarComponent />
         <Routes>
